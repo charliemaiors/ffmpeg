@@ -1,6 +1,7 @@
 FFMPEG
 =========
 
+[![Build Status](https://travis-ci.org/charliemaiors/ffmpeg.svg?branch=master)](https://travis-ci.org/charliemaiors/ffmpeg)
 This role installs FFMPEG, x264 and x265 on Ubuntu, CentOS and Archlinux
 
 Requirements
