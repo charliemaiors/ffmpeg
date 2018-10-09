@@ -1,4 +1,10 @@
 ---
+- name: install prerequisites for add-apt-repo
+  become: true
+  apt:
+    update_cache: true
+    name: software-properties-common
+    state: present
 - name: add ffmpeg ppa
   become: true
   apt_repository:
