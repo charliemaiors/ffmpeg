@@ -2,7 +2,7 @@
 - name: Install ffmpeg and codecs
   become: true
   pacman:
-    state: latest
+    state: present
     upgrade: true
     name: ["ffmpeg", "x264", "x265"]
     update_cache: true
