@@ -9,9 +9,6 @@ platforms:
   - name: centos-test
     image: centos:7
     pre_build_image: true
-  - name: ubuntu-16-test
-    image: cmaiorano/ubuntu-ansible:xenial
-    pre_build_image: true
   - name: ubuntu-18-test
     image: cmaiorano/ubuntu-ansible:bionic
     pre_build_image: true
